@@ -5,8 +5,10 @@
 	--black: #000;
 	--white: #fff;
 	--bg-light-mode: #ebeced;
-	--navbar-bg-light: #adadad;
+	--navbar-bg-light: #f7f7f7;
 	--navbar-bg-dark: #5c5d5e;
+	--dark-blue: #42455c;
+	--red:	#de3c0b;
 
 
 	--transition: all .3s ease;
@@ -34,4 +36,10 @@ li {
 
 :-webtkit-scrollbar {
 	display: none;
+}
+
+
+.description {
+	font-size: 1.1rem;
+	padding: .5rem 0 1.5rem 0;
 }

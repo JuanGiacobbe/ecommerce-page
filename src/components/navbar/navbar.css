@@ -4,7 +4,7 @@
 	align-items: center;
 	flex-direction: row;
 	width: 100vw;
-	padding: 1.5rem;
+	padding: 1.2rem;
 	background-color: var(--navbar-bg-light);
 }
 
@@ -21,4 +21,15 @@
 	margin: 0 .5rem;
 	text-transform: uppercase;
 	color: var(--black);
+	font-weight: 500;
+	transition: var(--transition);
+}
+
+.link:hover {
+	font-weight: 600;
+}
+.active {
+	color: var(--black);
+	font-weight: 600;
+
 }

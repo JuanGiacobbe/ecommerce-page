@@ -9,19 +9,39 @@ export default function Navbar() {
 			<ul className='list'>
 				
 				<li>
-					<NavLink to="/products" className='link'>products</NavLink>
+					<NavLink 
+						to="/products" 
+						className={({ isActive }) => (isActive ? 'link active' : 'link')}
+					>
+						products
+					</NavLink>
 				</li>
 				
 				<li>
-					<NavLink to="/about" className='link'>about us</NavLink>
+					<NavLink 
+						to="/about" 
+						className={({ isActive }) => (isActive ? 'link active' : 'link')}
+					>
+						about us
+					</NavLink>
 				</li>
 				
 				<li>
-					<NavLink to="/colections" className='link'>colections</NavLink>
+					<NavLink 
+						to="/colections" 
+						className={({ isActive }) => (isActive ? 'link active' : 'link')}
+					>
+						colections
+					</NavLink>
 				</li>
 				
 				<li>
-					<NavLink to="/contact" className='link'>contact</NavLink>
+					<NavLink 
+						to="/contact" 
+						className={({ isActive }) => (isActive ? 'link active' : 'link')}
+					>
+						contact
+					</NavLink>
 				</li>
 
 			</ul>

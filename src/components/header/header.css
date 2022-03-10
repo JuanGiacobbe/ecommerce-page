@@ -1,0 +1,31 @@
+
+
+.header {
+	padding: 3rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	width: 100%;
+}
+
+.header .header-content {
+	padding: 1rem;
+}
+
+.header-content .header-link {
+	font-size: 1.1rem;
+	transition: var(--transition);
+}
+
+.header-link:hover {
+	color: var(--red);
+}
+
+.header .header-img .img {
+	width: 90%;
+	max-height: 300px;
+	overflow: hidden;
+	height: auto;
+	object-fit: cover;
+	object-position: center;
+	border-radius: .25rem;
+}
