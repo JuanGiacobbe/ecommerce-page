@@ -1,0 +1,13 @@
+
+.err-num {
+	padding-top: 4rem;
+	font-size: 4rem;
+}
+
+
+.err-txt {
+	font-size: 1.1rem;
+	padding: 1rem;
+	width: 35%;
+	text-align: center;
+}

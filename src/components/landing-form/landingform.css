@@ -1,0 +1,12 @@
+
+.landing-form {
+	padding: 1rem;
+	background-color: var(--form-bg);
+	width: var(--width-max);
+	border-radius: .25rem;
+}
+
+.form {
+	padding-top: 1rem;
+}
+

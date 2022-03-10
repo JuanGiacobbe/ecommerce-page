@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
+
+
+/*VARIABLES*/
+
 :root {
 	--bg-dark-mode: #323438;
 	--black: #000;
@@ -9,12 +13,19 @@
 	--navbar-bg-dark: #5c5d5e;
 	--dark-blue: #42455c;
 	--red:	#de3c0b;
+	--btn: #6e56e3;
+	--btn-hover: #2d1c85;
+	--form-bg: #65a1a1;
 
 
 	--transition: all .3s ease;
 
+	--width-max: max-content;
+
 }
 
+
+/*GENERAL STYLES*/
 
 * {
 	padding: 0;
@@ -38,8 +49,56 @@ li {
 	display: none;
 }
 
+.dark-txt {
+	color: var(--bg-dark-mode);
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
 
 .description {
 	font-size: 1.1rem;
 	padding: .5rem 0 1.5rem 0;
+}
+
+.page-link {
+	font-size: 1.1rem;
+	transition: var(--transition);
+}
+
+.page-link:hover {
+	color: var(--red);
+}
+
+.btn {
+	padding: .5rem;
+	width: var(--width-max);
+	border-radius: .25rem;
+	text-decoration: none;
+	border: none;
+	color: var(--white);
+	background-color: var(--btn);
+	cursor: pointer;
+	transition: var(--transition);
+}
+
+.btn:hover {
+	background-color: var(--btn-hover);
+}
+
+.submit {
+	padding: .6rem;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.input {
+	font-size: 1rem;
+	padding: .5rem;
+	margin-bottom: .5rem;
+	border-radius: .25rem;
+	border: none;
 }

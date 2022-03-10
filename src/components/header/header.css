@@ -11,14 +11,6 @@
 	padding: 1rem;
 }
 
-.header-content .header-link {
-	font-size: 1.1rem;
-	transition: var(--transition);
-}
-
-.header-link:hover {
-	color: var(--red);
-}
 
 .header .header-img .img {
 	width: 90%;

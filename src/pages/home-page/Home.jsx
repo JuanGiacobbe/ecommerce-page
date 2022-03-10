@@ -10,7 +10,7 @@ export default function Home() {
 		<div>
 			<Navbar />
 
-			<main className='home'>
+			<main className='container home'>
 
 				<Header />
 

@@ -14,7 +14,7 @@ import './header.css'
 
 				<NavLink 
 					to='/account-register'
-					className='header-link'
+					className='page-link'
 				>
 					Explore more
 				</NavLink>
